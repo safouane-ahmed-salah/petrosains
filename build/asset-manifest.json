@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/petrosains/static/css/main.f29ae65a.chunk.css",
+    "main.js": "/petrosains/static/js/main.23730a8c.chunk.js",
+    "main.js.map": "/petrosains/static/js/main.23730a8c.chunk.js.map",
+    "runtime-main.js": "/petrosains/static/js/runtime-main.21bb5040.js",
+    "runtime-main.js.map": "/petrosains/static/js/runtime-main.21bb5040.js.map",
+    "static/js/2.1c8af380.chunk.js": "/petrosains/static/js/2.1c8af380.chunk.js",
+    "static/js/2.1c8af380.chunk.js.map": "/petrosains/static/js/2.1c8af380.chunk.js.map",
+    "index.html": "/petrosains/index.html",
+    "static/css/main.f29ae65a.chunk.css.map": "/petrosains/static/css/main.f29ae65a.chunk.css.map",
+    "static/js/2.1c8af380.chunk.js.LICENSE.txt": "/petrosains/static/js/2.1c8af380.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.21bb5040.js",
+    "static/js/2.1c8af380.chunk.js",
+    "static/css/main.f29ae65a.chunk.css",
+    "static/js/main.23730a8c.chunk.js"
+  ]
+}

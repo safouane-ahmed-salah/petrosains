@@ -1,7 +1,15 @@
 import moment from "moment";
+import { useEffect } from "react";
 import * as xlsx from "xlsx";
 
 export default function ({ setData }) {
+  useEffect(() => {
+    var json = window.localStorage.getItem('xlsx');
+    if (!json) return;
+    setData(JSON.parse(json));
+  }, []);
+
+
   const onUpload = (e) => {
     if (!e.target.files) return;
     const reader = new FileReader();
@@ -36,8 +44,10 @@ export default function ({ setData }) {
         return moment(a.date) - moment(b.date);
       });
 
+      window.localStorage.setItem('xlsx', JSON.stringify(data));
       setData && setData(data);
     };
+
     reader.readAsArrayBuffer(e.target.files[0]);
   };
   return (
